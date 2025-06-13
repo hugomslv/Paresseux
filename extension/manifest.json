@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Progression de la journée de travail",
+  "version": "1.0",
+  "description": "Affiche la progression de votre journée de travail.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["storage"]
+}
