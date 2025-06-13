@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Options d'horaire de travail</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    label { display: block; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Horaire de travail</h1>
+  <form id="scheduleForm">
+    <label>Lundi : <input type="number" step="0.1" id="monday" /></label>
+    <label>Mardi : <input type="number" step="0.1" id="tuesday" /></label>
+    <label>Mercredi : <input type="number" step="0.1" id="wednesday" /></label>
+    <label>Jeudi : <input type="number" step="0.1" id="thursday" /></label>
+    <label>Vendredi : <input type="number" step="0.1" id="friday" /></label>
+    <button type="submit">Enregistrer</button>
+  </form>
+  <script src="options.js"></script>
+</body>
+</html>
